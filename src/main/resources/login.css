@@ -1,0 +1,55 @@
+
+.login-button {
+    -fx-background-color: white;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: black;
+    -fx-alignment: center;
+    -fx-text-fill: black;
+    -fx-font-family: sans-serif;
+    -fx-min-width: 75;
+    -fx-background-insets: 0;
+    -fx-effect: dropshadow(three-pass-box, black, 0, 0, 5, 5);
+}
+
+.login-button:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(three-pass-box, #ff7373, 0, 0, 5, 5);
+}
+
+.login-box {
+    -fx-background-color: white;
+    -fx-effect: dropshadow( three-pass-box, #ff7373, 0, 0, 40, 40);
+    -fx-padding: 100 200;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+
+.input-box {
+    -fx-background-color: white;
+    -fx-border-color: grey;
+    -fx-border-insets: 3;
+    -fx-border-width: 0 0 1.5 0;
+}
+
+.login-background {
+    -fx-alignment: center;
+}
+
+.login-text {
+    -fx-font-family: sans Serif;
+    -fx-font-size: 45;
+    -fx-font-weight: bold;
+}
+
+.error-box {
+    -fx-padding: 10;
+    -fx-border-color: Transparent;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+
+.error-text {
+    -fx-text-fill: #fff6ed;
+}

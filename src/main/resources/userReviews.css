@@ -1,0 +1,5 @@
+
+.review:hover {
+    -fx-background-color: rgba(255, 115, 115, 0.22);
+    -fx-translate-x: 30;
+}

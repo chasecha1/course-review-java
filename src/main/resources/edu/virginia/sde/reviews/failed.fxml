@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?xml-stylesheet type="text/css" href="stylesheet.css"?>
+
+<?import javafx.scene.text.Text?>
+<GridPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+          styleClass="login-background">
+      <VBox styleClass="login-box">
+          <HBox alignment="CENTER">
+              <Text styleClass="login-text">Failed!</Text>
+          </HBox>
+      </VBox>
+</GridPane>

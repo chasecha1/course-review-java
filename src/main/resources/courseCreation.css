@@ -1,0 +1,69 @@
+
+.create-box {
+    -fx-background-color: white;
+    -fx-effect: dropshadow( three-pass-box, #ff7373, 0, 0, 50, 50);
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-padding: 50 100;
+    -fx-spacing: 10;
+    -fx-max-height: 10;
+}
+
+.create-box-header {
+    -fx-font-size: 50;
+    -fx-font-weight: bold;
+}
+
+.create-button {
+    -fx-background-color: white;
+    -fx-alignment: center;
+    -fx-text-fill: black;
+    -fx-font-family: sans-serif;
+    -fx-border-color: black;
+    -fx-effect: dropshadow(three-pass-box, black, 0, 0, 5, 5);
+    -fx-font-size: 20;
+    -fx-pref-width: 100;
+    -fx-pref-height: 40;
+    -fx-background-insets: 0;
+}
+
+.create-button:hover {
+   -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(three-pass-box, #ff7373, 0, 0, 5, 5);
+}
+
+.input {
+    -fx-border-color: black;
+    -fx-border-width: 0 0 1.3 0;
+    -fx-background-color: transparent;
+}
+
+.response-box {
+    -fx-padding: 10;
+    -fx-border-color: Transparent;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+
+.responseBox {
+    -fx-border-color: transparent;
+    -fx-background-radius: 5;
+    -fx-pref-width: 60;
+}
+
+.success {
+    -fx-text-fill: white;
+    -fx-padding: 5;
+    -fx-font-size: 15;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #b0d397;
+}
+
+.failure {
+    -fx-text-fill: white;
+    -fx-padding: 5;
+    -fx-font-size: 15;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #e16d6d;
+}

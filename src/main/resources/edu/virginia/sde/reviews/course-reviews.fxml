@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<VBox prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.virginia.sde.reviews.CourseReviewsController">
+    <GridPane prefHeight="70" prefWidth="1280" fx:id="topBar" styleClass="top-bar" alignment="BOTTOM_LEFT">
+        <HBox>
+            <Region prefWidth="50"/>
+            <Button fx:id="showText" onAction="#toUserReviews" styleClass="header-button">Hello!</Button>
+            <Region prefWidth="650"/>
+            <Button onAction="#toCourseCreation" styleClass="header-button">create</Button>
+            <Button onAction="#toCourseSearch" styleClass="header-button">search</Button>
+            <Button onAction="#toLogin" styleClass="header-button">logout</Button>
+            <Button onAction="#close" styleClass="header-button">close</Button>
+        </HBox>
+    </GridPane>
+    <ScrollPane hbarPolicy="NEVER" vbarPolicy="NEVER" styleClass="scroller">
+        <VBox styleClass="page">
+
+            <VBox fx:id="reviewHolder" styleClass="main-box">
+                <Text styleClass="course-description" fx:id="courseDescription">
+                    Error
+                </Text>
+            </VBox>
+        </VBox>
+    </ScrollPane>
+</VBox>

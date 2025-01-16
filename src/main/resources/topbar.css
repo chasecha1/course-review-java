@@ -1,0 +1,22 @@
+.top-bar {
+    -fx-background-color: #ffffff;
+    -fx-font-family: sans-serif;
+    -fx-font-weight: bold;
+    -fx-min-height: 90;
+    -fx-padding: 10;
+}
+
+.header-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 0 8 0 8;
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+    -fx-underline: true;
+    -fx-font-size: 20;
+}
+
+.header-button:hover {
+    -fx-text-fill: #ff7373;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}

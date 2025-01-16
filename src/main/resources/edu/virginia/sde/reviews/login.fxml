@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?xml-stylesheet type="text/css" href="stylesheet.css"?>
+
+<?import javafx.scene.text.Text?>
+<GridPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.virginia.sde.reviews.LoginController"
+            styleClass="login-background">
+      <VBox styleClass="login-box">
+          <HBox alignment="CENTER">
+              <Text styleClass="login-text">Course Reviewer:</Text>
+              </HBox>
+              <Region prefHeight="20"/>
+          <HBox alignment="CENTER">
+              <TextField fx:id="usernameInput" promptText="username" styleClass="input-box"/>
+          </HBox>
+          <Region prefHeight="20"/>
+          <HBox alignment="CENTER">
+              <TextField fx:id="passwordInput" promptText="password" styleClass="input-box"/>
+          </HBox>
+          <Region prefHeight="40"/>
+          <HBox alignment="CENTER">
+              <Button onAction="#login" styleClass="login-button" >log in</Button>
+              <Region prefWidth="10"/>
+              <Button onAction="#register" text="register" styleClass="login-button" />
+              <Region prefWidth="10"/>
+              <Button onAction="#close" styleClass="login-button">close</Button>
+          </HBox>
+          <Region prefHeight="10"/>
+          <HBox alignment="CENTER" fx:id="errorBox" styleClass="error-box">
+              <Label fx:id="errorText" styleClass="error-text"/>
+          </HBox>
+      </VBox>
+</GridPane>
